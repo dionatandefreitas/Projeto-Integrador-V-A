@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+}
+header{
+    height: 100px;
+    color: white;
+    background: rgb(103, 103, 240);
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+main{
+    min-height: 400px;
+    width: 800px;    
+}
+#imagem{
+    background-image: url(imagem1.jpg);
+}
+main h1{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+main table{
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+th, td{  
+    padding: 5px;
+}
+
+.item{
+    margin-bottom: -15px;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    background: rgb(119, 179, 31);
+    
+}
+.botao{
+    margin-left: 100px;
+    
+}
+.item a{
+    text-decoration: none;
+}
+.item a:hover{
+    color: white;
+}
+form{
+    margin-left: 200px;
+    width: 300px;
+    border: 2px solid rgb(119, 179, 31);
+    padding: 25px
+    
+}
+
+#direita{
+float: right;
+margin-top: 100px;
+margin-right: 70px;
+
+}
+#esquerda{
+    float: left;
+    margin-top: 100px;
+    margin-left: 70px;
+
+}
+
+footer{
+    height: 100px;
+    color: white;
+    background: rgb(103, 103, 240);
+}
+footer p{
+    text-align: center;
+    padding-top: 25px;
+}
+
